@@ -21,5 +21,7 @@ echo "Installing tmux configuration"
 cp -v $(dirname "$0")/.tmux.conf ~/.tmux.conf
 
 echo "Done!"
-echo "Don't forget to run :PlugInstall and/or :PlugUpdate in vim"
+echo "Reminders:"
+echo "- Run :PlugInstall and/or :PlugUpdate in vim"
+echo "- source ~/.bash_alises in ~/.bashrc"
 
