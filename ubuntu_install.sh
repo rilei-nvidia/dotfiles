@@ -20,8 +20,10 @@ cp -v $(dirname "$0")/.bash_aliases ~/.bash_aliases
 echo "Installing tmux configuration"
 cp -v $(dirname "$0")/.tmux.conf ~/.tmux.conf
 
+echo "Installing apt packages"
+sudo apt install ripgrep
+
 echo "Done!"
 echo "Reminders:"
 echo "- Run :PlugInstall and/or :PlugUpdate in vim"
 echo "- source ~/.bash_alises in ~/.bashrc"
-

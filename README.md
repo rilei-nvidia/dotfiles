@@ -1,6 +1,6 @@
 # dotfiles
 
-Install all the things:
+Install all the things for Ubuntu:
 ```bash
-./install.sh
+./ubuntu_install.sh
 ```
