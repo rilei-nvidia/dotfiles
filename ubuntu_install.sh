@@ -21,7 +21,7 @@ echo "Installing tmux configuration"
 cp -v $(dirname "$0")/.tmux.conf ~/.tmux.conf
 
 echo "Installing apt packages"
-sudo apt install ripgrep xclip
+sudo apt install ripgrep xclip git-lfs
 
 echo "Done!"
 echo "Reminders:"
